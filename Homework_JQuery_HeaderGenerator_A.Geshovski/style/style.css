@@ -1,0 +1,38 @@
+html {
+  width: 350px;
+  height: 250px;
+}
+
+h1 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-width: 2px;
+  border-style: groove;
+  border-color: black;
+  border-image: initial;
+  border-radius: 10px;
+  padding-top: 5px;
+}
+
+#headerGenerator {
+  width: 350px;
+  height: 250px;
+  background-color: rgb(255, 247, 255);
+}
+
+#generateBtn {
+  width: 201px;
+  height: 23px;
+  margin: 5px 70px;
+  border-radius: 5px;
+}
